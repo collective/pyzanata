@@ -1,0 +1,3 @@
+graft src/pyzanata
+include *.rst
+global-exclude *.pyc

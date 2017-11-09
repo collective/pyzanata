@@ -1,0 +1,28 @@
+.coverage
+*.egg-info
+*.log
+*.mo
+*.py?
+*.swp
+# dirs
+bin/
+eggs/
+.eggs/
+htmlcov/
+include/
+lib/
+lib64
+local/
+# files
+log.html
+output.xml
+pip-selfcheck.json
+report.html
+# excludes
+!.coveragerc
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.gitkeep
+!.travis.yml
+!src/pyzanata
