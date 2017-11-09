@@ -51,8 +51,8 @@ See also the `Declaration YAML File (GitHub) <https://github.com/collective/pyza
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/bluedynamics/pyanata/issues
-- Source Code: https://github.com/bluedynamics/pyanata
+- Issue Tracker: https://github.com/bluedynamics/pyzanata/issues
+- Source Code: https://github.com/bluedynamics/pyzanata
 
 
 Support
@@ -60,8 +60,3 @@ Support
 
 If you are having issues, please let me know: jens@bluedynamics.com
 
-
-License
--------
-
-The project is licensed under the GPLv2.
