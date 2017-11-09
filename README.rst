@@ -1,7 +1,7 @@
 pyzanata
 ========
 
-Alternative `Zanata <>`_ restapi client.
+Alternative `Zanata <http://zanata.org/>`_ restapi client.
 
 Usage
 -----
@@ -27,7 +27,7 @@ Consult the `Zanata REST API Documentation <https://zanata.ci.cloudbees.com/job/
 
 Deprecated APIs are not implemented.
 
-For further details see also the `YAML Definition File (GitHub) <dfd>`_. This file is read by the generic API runtime code and declares the API.
+For further details see also the `YAML Definition File (GitHub) <https://github.com/collective/pyzanata/blob/master/src/pyzanata/restapi.yaml>`_. This file is read by the generic API runtime code and declares the API.
 
 
 Contribute
