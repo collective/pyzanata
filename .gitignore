@@ -8,6 +8,7 @@
 bin/
 eggs/
 .eggs/
+build/
 dist/
 htmlcov/
 include/
