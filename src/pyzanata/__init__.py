@@ -3,7 +3,6 @@ import collections
 import os
 import requests
 import yaml
-import tests  # noqa: F401
 
 
 CACHE_SETTINGS = {
@@ -72,11 +71,12 @@ class ZanataMethod(object):
             session_cache[self._credentials] = session
         return session
 
-    def __call__(self, data=None, **kwargs):
+    def __call__(self, params=None, data=None, **kwargs):
         req_method = getattr(self._session, self.method.lower())
         resp = req_method(
             self._url(**kwargs),
             data=data,
+            params=params,
             headers=self._headers
         )
         return resp

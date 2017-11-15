@@ -13,7 +13,8 @@ In order to get started two imports are needed::
 
 First credentials needs to be set::
 
-    credentials = ZanataCredentials('http://zanata.exampl.com', 'johndoe', 'secret')
+    credentials = ZanataCredentials('http://zanata.example.com/rest/', 'johndoe', 'secret-token')
+
 
 Then the client can be initialized::
 
@@ -36,7 +37,10 @@ METHOD
     one of the http-methods (depends on endpint, as configured in declaration)
 
 data
-    payload or body passed to ``requests`` call.
+    payload passed to body of ``requests`` call.
+
+params
+    payload passed to query string of ``requests`` call.
 
 path_replacements
     keyword arguments used to replace the dynamic path elements as configured in the declaration.
@@ -45,7 +49,7 @@ Consult the `Zanata REST API Documentation <https://zanata.ci.cloudbees.com/job/
 
 See also the `Declaration YAML File (GitHub) <https://github.com/collective/pyzanata/blob/master/src/pyzanata/restapi.yaml>`_. This file is read by the generic API runtime code and declares the API.
 
-
+An application using this code can be found at `collective.ttwpo Plone Addon <https://github.com/collective/collective.ttwpo/blob/master/src/collective/ttwpo/syncer/zanata.py>`_.
 
 
 Contribute

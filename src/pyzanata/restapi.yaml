@@ -60,7 +60,7 @@ FileResource:
       locale: The locale (language) for the translation file.
       fileType: "File type to be downloaded. (Options: 'po', 'half_baked', 'baked')"
     methods:
-      GET: application/json
+      GET: application/octet-stream
 
 GlossaryResource:
   glossary:
